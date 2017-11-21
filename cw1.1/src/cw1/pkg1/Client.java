@@ -28,6 +28,8 @@ public class trial {
     private String host;
 
 
+    
+    
 
     trial(String host, int port) {
         this.port = port;
@@ -36,10 +38,15 @@ public class trial {
 
 
 
+    
+    
     public void start() {
         int option = 0;
 
 
+        
+        
+        
         System.out.println("Shapes Application");
 
         while (option != 4) {
@@ -56,6 +63,10 @@ public class trial {
 
             Scanner scanner = new Scanner(System.in);
 
+            
+            
+            
+            
 
             option = scanner.nextInt();
 
